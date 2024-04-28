@@ -21,3 +21,15 @@ try{
     die($e->getMessage());
 }
 
+                // <?php 
+
+                // $query = "SELECT * FROM `students`";
+                $result = mysql_query($db, $query);
+
+                if (!$result){
+                    die("query fail".mysql_error());
+                }
+                else{// 
+                    print_r($result);
+                }
+                ?>
