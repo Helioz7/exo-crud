@@ -30,11 +30,8 @@
                     <td><?php echo $row ['prénom'];?></td>
                     <td><?php echo $row ['nom'];?></td>
                     <td><?php echo $row ['age'];?></td>
-                </tr>
-                        
-                       
-                        <?php
-
+                </tr> 
+                 <?php
                     }
                 }
 
